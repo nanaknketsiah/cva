@@ -1,0 +1,458 @@
+repo_name: nanaknketsiah/cva
+report_id: e3eac2b4101c8cfa377bae806c62fd37
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-21T20:17:10+00:00'
+requested_by: The73756
+provider: github
+branch: main
+detected_tools_count: 33
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nanaknketsiah/cva
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/nanaknketsiah/cva
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/react-with-tailwindcss/package.json
+  detection_source: examples/react-with-tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 13.1.6
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 18.13.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/react-with-tailwindcss/package.json
+  detection_source: examples/react-with-tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: Svelte
+  description: A UI framework that compiles into tiny standalone JavaScript modules
+  website_url: https://svelte.technology/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/svelte/package.json
+  detection_source: examples/svelte/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-06-07 19:18:28.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/astro-with-tailwindcss/package.json
+  detection_source: examples/astro-with-tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-04-02 04:01:16.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/vue/package.json
+  detection_source: examples/vue/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nanaknketsiah/cva
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-28 06:37:04.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 28.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/packages/@cva/tailwindcss/package.json
+  detection_source: packages/@cva/tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-06-07 19:18:28.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-28 06:37:04.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/react-with-css-modules/package.json
+  detection_source: examples/react-with-css-modules/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/astro-with-tailwindcss/package.json
+  detection_source: examples/astro-with-tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/nanaknketsiah/cva
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-26 09:30:07.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-06-07 19:18:28.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/react-with-css-modules/package.json
+  detection_source: examples/react-with-css-modules/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-04-02 04:01:16.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 4.1.5
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 4.5.3
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 28.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/packages/@cva/tailwindcss/package.json
+  detection_source: packages/@cva/tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-06-07 19:18:28.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.11.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-04-02 04:01:16.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-04-02 04:01:16.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/react-with-css-modules/package.json
+  detection_source: examples/react-with-css-modules/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-04-02 04:01:16.000000000 Z
+- name: bundlesize
+  description: Keep your library size in check
+  package_url: https://www.npmjs.com/bundlesize
+  version: 0.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17230/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/packages/@cva/tailwindcss/package.json
+  detection_source: packages/@cva/tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-06-07 19:18:28.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-26 09:30:07.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-06-07 19:18:28.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/astro-with-tailwindcss/package.json
+  detection_source: examples/astro-with-tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.0.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/astro-with-tailwindcss/package.json
+  detection_source: examples/astro-with-tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-04-02 04:01:16.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/packages/@cva/tailwindcss/package.json
+  detection_source: packages/@cva/tailwindcss/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-06-07 19:18:28.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.5.0
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/svelte/package.json
+  detection_source: examples/svelte/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/nanaknketsiah/cva/blob/main/examples/vue/package.json
+  detection_source: examples/vue/package.json
+  last_updated_by: Joe Bell
+  last_updated_on: 2023-02-15 05:25:18.000000000 Z
